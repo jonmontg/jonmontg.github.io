@@ -1,0 +1,79 @@
+# Site Settings
+title: "Jonathan Montgomery"
+subtitle: "Data Scientist | Science Enthusiast | Cyclist
+name: "Jonathan Montgomery"
+email: "jonmontg543@gmail.com"
+description: >-
+  Portfolio, blog, and projects of a data scientist who loves exploring data, models, and engineering.
+url: "https://jonmontg.github.io"
+baseurl: ""
+
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+
+# Author Info
+author:
+  name: "Jonathan Montgomery"
+  bio: "Data Scientist passionate about machine learning, physics, and visual storytelling."
+  location: "Denver, CO"
+  email: "jonmontg543@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jonmontg"
+    - label: "CV"
+      icon: "fas fa-file-alt"
+      url: "/assets/files/cv.pdf"
+
+github: jonmontg
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Navigation
+header_pages:
+  - about.md
+  - projects.md
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: true
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jonmontg"
+
+google_analytics: "G-JSKFTCLWM8"
