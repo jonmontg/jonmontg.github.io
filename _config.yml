@@ -1,6 +1,6 @@
 # Site Settings
 title: "Jonathan Montgomery"
-subtitle: "Data Scientist | Science Enthusiast | Cyclist
+subtitle: "Data Scientist | Science Enthusiast | Cyclist"
 name: "Jonathan Montgomery"
 email: "jonmontg543@gmail.com"
 description: >-
@@ -9,7 +9,7 @@ url: "https://jonmontg.github.io"
 baseurl: ""
 
 # Theme
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
 
 # Build Settings
