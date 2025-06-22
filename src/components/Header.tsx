@@ -14,8 +14,6 @@ export default function Header() {
     }
 
     // Get all text content from the page
-    const pageContent = document.body.innerText;
-    const words = pageContent.toLowerCase().split(/\s+/);
     const queryWords = query.toLowerCase().split(/\s+/);
 
     const results: Array<{text: string, element: string}> = [];
