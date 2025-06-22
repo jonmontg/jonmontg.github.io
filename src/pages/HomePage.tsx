@@ -1,5 +1,5 @@
 const Body = () => (
-  <main className="container mx-auto px-4 py-8 max-w-4xl flex-grow">
+  <main className="container px-4 py-8 max-w-4xl flex-grow">
     <section className="space-y-8">
       <h2 className="text-3xl font-semibold text-primary">About Me</h2>
       <p className="text-base-content">

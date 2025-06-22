@@ -1,8 +1,16 @@
-import HomePage from "./home_page/HomePage";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import HomePage from "./pages/HomePage";
+import SchillerDataPage from "./pages/SchillerDataPage";
 
 function App() {
   return (
-    <HomePage />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout><HomePage /></Layout>} />
+        <Route path="/Shiller-data" element={<Layout><SchillerDataPage /></Layout>} />
+      </Routes>
+    </Router>
   );
 }
 
