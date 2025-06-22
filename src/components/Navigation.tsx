@@ -19,7 +19,8 @@ export default function Navigation() {
     {
       title: "Data Science",
       items: [
-        { label: "Shiller Data Analysis", href: "/Shiller-data" }
+        { label: "Shiller Data Analysis", href: "/Shiller-data" },
+        { label: "Deepfake Audio Detection", href: "/Deepfake-audio-detection" }
       ]
     },
     {
