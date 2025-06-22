@@ -24,11 +24,8 @@ export default function Navigation() {
       ]
     },
     {
-      title: "Research",
+      title: "Visualizations",
       items: [
-        { label: "Publications", href: "#papers" },
-        { label: "Presentations", href: "#talks" },
-        { label: "Collaborations", href: "#collab" }
       ]
     }
   ];
