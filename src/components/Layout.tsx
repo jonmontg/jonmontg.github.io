@@ -2,7 +2,7 @@ import Header from './Header';
 import Banner from './Banner';
 import Footer from './Footer';
 import Navigation from './Navigation';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 interface LayoutProps {
   children: ReactNode;
