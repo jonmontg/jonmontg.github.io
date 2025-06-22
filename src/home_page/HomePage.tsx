@@ -8,7 +8,11 @@ import { useEffect } from 'react';
 function HomePage() {
   useEffect(() => {
     // Track page view when HomePage mounts
-    ReactGA.send({ hitType: "pageview", page: "/" });
+    ReactGA.send({
+      hitType: "pageview",
+      page: "/",
+      title: "Home Page"
+    });
   }, []);
 
   return (

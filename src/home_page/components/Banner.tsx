@@ -4,6 +4,7 @@ export default function Banner() {
       <img
         src="/canyonland.png"
         alt="Canyonlands National Park"
+        title="Canyonlands National Park"
         className="w-full h-full object-cover"
       />
     </div>
