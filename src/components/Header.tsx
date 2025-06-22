@@ -75,7 +75,7 @@ export default function Header() {
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost text-xl">Jon Montgomery</a>
+          <a className="btn btn-ghost text-xl" href="/">Jon Montgomery</a>
         </div>
         <div className="navbar-end">
           <SearchButton onClick={() => setIsSearchOpen(true)} />
