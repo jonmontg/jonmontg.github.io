@@ -17,20 +17,26 @@ export default function Navigation() {
 
   const navGroups: NavGroup[] = [
     {
-      title: "Data Science",
+      title: "Profile",
       items: [
-        { label: "Shiller Data Analysis", href: "/Shiller-data" },
-        { label: "Deepfake Audio Detection", href: "/Deepfake-audio-detection" }
+        { label: "About", href: "/about" },
+        { label: "Resume (PDF)", href: "/Resume.pdf" },
       ]
     },
     {
-      title: "Visualizations",
+      title: "Projects",
       items: [
+        { label: "GNN Flight Delay", href: "/projects/gnn-flight-delay" },
+        { label: "Agent Privacy", href: "/projects/agent-privacy" },
       ]
     }
   ];
 
   const handleNavigation = (href: string) => {
+    if (href.toLowerCase().endsWith('.pdf')) {
+      window.open(href, '_blank', 'noreferrer');
+      return;
+    }
     if (href.startsWith('/')) {
       // Use React Router for internal routes
       navigate(href);
@@ -45,7 +51,7 @@ export default function Navigation() {
       {/* Navigation Groups */}
       <nav className="flex-1 p-4 space-y-6">
         {/* Header */}
-        <h2 className="text-lg font-semibold text-primary">Projects</h2>
+        <h2 className="text-lg font-semibold text-primary">Navigator</h2>
 
         {navGroups.map((group, groupIndex) => (
           <div key={groupIndex} className="space-y-2">
