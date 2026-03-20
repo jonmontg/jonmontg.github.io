@@ -74,9 +74,10 @@ export default function AboutPage() {
               by the Indiana EPA.
             </li>
             <li>
-              <span className="font-semibold">Deepfake audio detection</span>: Classified real vs. fake
-              audio using adversarial hidden Markov models in R, building on prior work with adversarial
-              Gaussian mixture models.
+              <span className="font-semibold">Agent privacy</span>: Defined a class of Turing Tests
+              to identify conversational AI agents that do not maintain a private state, building on prior work
+              showing that private state is necessary for maintaining conversational consistency in games of
+              hidden information.
             </li>
           </ul>
         </section>
