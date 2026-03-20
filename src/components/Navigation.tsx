@@ -26,6 +26,7 @@ export default function Navigation() {
     {
       title: "Projects",
       items: [
+        { label: "ADLM Clinical RAG", href: "/projects/adlm-clinical-rag" },
         { label: "GNN Flight Delay", href: "/projects/gnn-flight-delay" },
         { label: "Agent Privacy", href: "/projects/agent-privacy" },
       ]
